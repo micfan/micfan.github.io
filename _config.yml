@@ -221,3 +221,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-remote-theme
+
+remote_theme: kitian616/jekyll-TeXt-theme  

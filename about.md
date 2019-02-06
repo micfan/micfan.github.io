@@ -18,8 +18,19 @@ titles:
 key: page-about
 ---
 
-Just say something about yourself. :+1:
+Something:
 
-{% highlight javascript %}
-(() => console.log('hello, world!'))();
+Trader / Machine Learning
+
+C++ / Python3 / Ruby / JavaScript
+
+{% highlight c++ %}
+#include <iostream>
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    cout << "Hello World!\n";
+    return 0;
+}
 {% endhighlight %}

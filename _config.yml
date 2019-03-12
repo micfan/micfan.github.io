@@ -222,5 +222,6 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 remote_theme: kitian616/jekyll-TeXt-theme  

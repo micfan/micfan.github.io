@@ -17,20 +17,8 @@ titles:
   ko-KR   : *KO
 key: page-about
 ---
-
-Something:
-
-Trader / Machine Learning
-
-C++ / Python3 / Ruby / JavaScript
-
-{% highlight c++ %}
-#include <iostream>
-using namespace std;
-
-int main(int argc, char *argv[])
-{
-    cout << "Hello World!\n";
-    return 0;
-}
-{% endhighlight %}
+* Trade
+* Machine Learning
+* C++
+* Python
+* Ruby

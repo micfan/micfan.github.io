@@ -224,4 +224,15 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
-remote_theme: kitian616/jekyll-TeXt-theme  
+remote_theme: kitian616/jekyll-TeXt-theme
+
+##
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: cpp
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true

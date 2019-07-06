@@ -3,6 +3,7 @@ layout: article
 title:  "2. add two numbers"
 tags: 
     - leetcode
+    - Medium
     - Linked List
     - Math
 categories: leetcode

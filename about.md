@@ -17,8 +17,10 @@ titles:
   ko-KR   : *KO
 key: page-about
 ---
-* Trade
-* Machine Learning
-* C++
-* Python
-* Ruby
+- Trade
+- Machine Learning
+- C++
+- Python
+- Ruby
+- Rust
+- Golang

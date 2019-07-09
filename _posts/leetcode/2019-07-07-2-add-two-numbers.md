@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  "2 - add two numbers"
 tags: 
     - leetcode

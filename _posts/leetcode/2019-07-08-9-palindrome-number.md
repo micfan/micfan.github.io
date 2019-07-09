@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  "9 - palindrome number"
 tags: 
     - leetcode

@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  "6 - zigzag convertion"
 tags: 
     - leetcode

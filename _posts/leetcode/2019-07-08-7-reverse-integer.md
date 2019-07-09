@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  "7 - reverse integer"
 tags: 
     - leetcode

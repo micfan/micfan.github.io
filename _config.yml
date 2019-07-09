@@ -8,66 +8,32 @@
 theme: minimal-mistakes-jekyll
 remote_theme: mmistakes/minimal-mistakes@4.16.4
 minimal_mistakes_skin: "dark"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : # does not include hostname
 title   : Yet Another Blog
+title_separator: "|"
+name: Yet Another Blog
 description: > # this means to ignore newlines until "Language & timezone"
   No Description yet
+url     : https://micfan.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
+baseurl : / # does not include hostname
+repository: micfan/micfan.github.io
+repository_tree: master
+head_scripts: []
+breadcrumbs: true
+
+
 
 
 ## Development
 host: 0.0.0.0
-
-## Sidebar
-sidebar:
-  nav: docs-en
 
 ## => Language and Timezone
 ##############################
 lang: # the language of your site, default as "en"
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
-
-
-## => GitHub Repository (if the site is hosted by GitHub)
-##############################
-repository: micfan/micfan.github.io
-repository_tree: master
-
-
-## => Paths
-##############################
-paths:
-  root    : # title link url, "/" (default)
-  home    : # home layout url, "/" (default)
-  archive : # "/archive.html" (default)
-  rss     : # "/feed.xml" (default)
-
-
-## => Post
-##############################
-## excerpt
-excerpt_separator: <!--more-->
-
-## license
-license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
-
 ## TOC
 toc:
   selectors: # "h1,h2,h3" (default)
-
-
-## => Markdown Enhancements
-##############################
-## Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
-
-## Mermaid
-mermaid: # false (default), true
-
-## Chart
-chart: # false (default), true
 
 
 ## => Paginate
@@ -79,65 +45,6 @@ paginate_path: /page:num # don't change this unless for special need
 ## => Sources
 ##############################
 sources: unpkg # bootcdn (default), unpkg
-
-
-## => Sharing
-##############################
-sharing:
-  provider: false # false (default), "addtoany", "addthis", "custom"
-
-  ## AddThis
-  addthis:
-    id: # AddThis pubid, e.g. ra-5xxxxxxxxxxx
-
-
-## => Comments
-##############################
-comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
-
-  ## Disqus
-  disqus:
-    shortname: # the Disqus shortname for the site
-
-  ## Gitalk
-  # please refer to https://github.com/gitalk/gitalk for more info.
-  gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
-
-  ## Valine
-  # please refer to https://valine.js.org/en/ for more info.
-  valine:
-    app_id      : # LeanCloud App id
-    app_key     : # LeanCloud App key
-    placeholder : # Prompt information
-
-
-## => Pageview
-##############################
-pageview:
-  provider: false # false (default), "leancloud", "custom"
-
-  ## Leancloud
-  leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
-
-
-## => Search
-##############################
-search:
-  provider: default # "default" (default), false, "google", "custom"
-
-  ## Google Custom Search Engine
-  google:
-    custom_search_engine_id: # Google Custom Search Engine ID
 
 
 ## => Analytics

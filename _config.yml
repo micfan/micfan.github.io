@@ -95,8 +95,9 @@ defaults:
       type: posts
     values:
       layout: single
-      aside:
-        toc: true
+      toc: true
+      toc_label: "Contents"
+      toc_icon: "bookmark"  # corresponding Font Awesome icon name (without fa prefix)
   # _pages
   - scope:
       path: "_pages"

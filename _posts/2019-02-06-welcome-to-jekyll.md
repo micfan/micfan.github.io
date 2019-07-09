@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: single
 title:  "Welcome to Jekyll!"
 date:   2019-02-06 09:26:43 +0800
 tags: jekyll

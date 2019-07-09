@@ -12,10 +12,12 @@ gem "jekyll", "~> 3.8.5"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.0"
-gem "jekyll-text-theme"
+gem "minimal-mistakes-jekyll"
 
 # https://github.com/benbalter/jekyll-remote-theme
 gem "jekyll-remote-theme"
+
+gem "github-pages", group: :jekyll_plugins
 
 # https://github.com/jekyll/jekyll-seo-tag
 gem 'jekyll-seo-tag'

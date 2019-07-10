@@ -9,7 +9,6 @@ categories: leetcode
 
 
 ```cpp
-
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -27,5 +26,4 @@ public:
         return reverse == x;
     }
 };
-
 ```

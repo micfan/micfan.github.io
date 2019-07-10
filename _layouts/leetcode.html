@@ -9,6 +9,18 @@ categories: leetcode
 {% assign problem_title = problem_splited[1] | strip %}
 {% assign problem_title_url = problem_title | replace: " ", "-" %}
 
+<footer class="page__meta">
+    {% if site.data.ui-text[site.locale].meta_label %}
+      <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+    {% endif %}
+
+    {% if site.tag_archive.type and page.tags[0] %}
+      {% include tag-list.html %}
+    {% endif %}
+    <br>
+</footer>
+
+
 <h2><a target="_blank" href="https://leetcode.com/problems/{{ problem_title_url }}">Description</a></h2>
 
 {{ content }}

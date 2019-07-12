@@ -1,6 +1,6 @@
 ---
 title: "Posts of all"
-permalink: /archives/
+permalink: /arch/
 layout: posts
 author_profile: true
 ---

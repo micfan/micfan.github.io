@@ -27,10 +27,10 @@ paginate_path: /page:num # don't change this unless for special need
 
 category_archive:
   type: liquid
-  path: /categories/
+  path: /cat/
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /tag/
 
 
 ## Development

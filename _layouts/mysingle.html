@@ -1,0 +1,17 @@
+---
+layout: single
+---
+
+<footer class="page__meta">
+    {% if site.data.ui-text[site.locale].meta_label %}
+      <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+    {% endif %}
+
+    {% if site.tag_archive.type and page.tags[0] %}
+      {% include tag-list.html %}
+    {% endif %}
+    <br/>
+</footer>
+
+{{ content }}
+        

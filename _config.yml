@@ -104,6 +104,7 @@ defaults:
       type: posts
     values:
       layout: leetcode
+      categories: leetcode
       toc: true
       toc_label: "Contents"
       toc_icon: "bookmark"  # corresponding Font Awesome icon name (without fa prefix)

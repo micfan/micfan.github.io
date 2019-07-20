@@ -1,4 +1,6 @@
 main:
+  - title: "Concurrency in Go"
+    url: https://www.kancloud.cn/mutouzhang/go/596804
   - title: "Archives"
     url: /arch/
   - title: "Categories"

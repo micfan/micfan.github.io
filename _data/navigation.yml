@@ -2,7 +2,9 @@ main:
   - title: "Concurrency in Go"
     url: https://www.kancloud.cn/mutouzhang/go/596804
   - title: "RE4B"
-    url: https://beginners.re/RE4B-CN-partial/html/RE4B-CN-partial.html    
+    url: https://beginners.re/RE4B-CN-partial/html/RE4B-CN-partial.html
+  - title: "RT Weekend"
+    url: https://github.com/RayTracing/raytracinginoneweekend    
   - title: "Archives"
     url: /arch/
   - title: "Categories"

@@ -108,6 +108,16 @@ defaults:
       toc: true
       toc_label: "Contents"
       toc_icon: "bookmark"  # corresponding Font Awesome icon name (without fa prefix)
+  # _posts
+  - scope:
+      path: "_posts/book"
+      type: posts
+    values:
+      layout: book
+      categories: book
+      toc: true
+      toc_label: "Contents"
+      toc_icon: "bookmark"  # corresponding Font Awesome icon name (without fa prefix)      
   # _pages
   - scope:
       path: "_pages"

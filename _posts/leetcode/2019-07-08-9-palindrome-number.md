@@ -1,12 +1,12 @@
 ---
 title:  "9 - palindrome number"
 tags: 
-    - leetcode
     - Easy
     - Math
 categories: leetcode
 ---
 
+## Solution
 
 ```cpp
 class Solution {

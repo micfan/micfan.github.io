@@ -7,6 +7,7 @@ tags:
 categories: leetcode
 ---
 
+## Solution
 
 ```cpp
 class Solution {

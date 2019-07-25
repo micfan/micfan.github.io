@@ -94,7 +94,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: leetcode
       toc: true
       toc_label: "Contents"
       toc_icon: "bookmark"  # corresponding Font Awesome icon name (without fa prefix)

@@ -1,0 +1,14 @@
+---
+layout: single
+tags: 
+    - leetcode
+categories: leetcode
+---
+{% assign problem_splited = page.title | split: "-" %}
+{% assign problem_number = problem_splited[0] | strip %}
+{% assign problem_title = problem_splited[1] | strip %}
+{% assign problem_title_url = problem_title | replace: " ", "-" %}
+
+<h2><a target="_blank" href="https://leetcode.com/problems/{{ problem_title_url }}">Description</a></h2>
+
+{{ content }}

@@ -1,6 +1,6 @@
 ---
-layout: article
-title:  "6. zigzag convertion"
+layout: single
+title:  "6 - zigzag convertion"
 tags: 
     - leetcode
     - Medium
@@ -9,7 +9,7 @@ categories: leetcode
 ---
 
 
-{% highlight c++ %}
+```cpp
 
 class Solution {
 public:
@@ -43,4 +43,4 @@ public:
     }
 };
 
-{% endhighlight %}
+```

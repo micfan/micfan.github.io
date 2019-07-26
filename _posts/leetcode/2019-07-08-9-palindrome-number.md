@@ -1,6 +1,6 @@
 ---
-layout: article
-title:  "9. palindrome number"
+layout: single
+title:  "9 - palindrome number"
 tags: 
     - leetcode
     - Easy
@@ -9,7 +9,7 @@ categories: leetcode
 ---
 
 
-{% highlight c++ %}
+```cpp
 
 class Solution {
 public:
@@ -29,4 +29,4 @@ public:
     }
 };
 
-{% endhighlight %}
+```

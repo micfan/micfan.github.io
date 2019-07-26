@@ -1,6 +1,6 @@
 ---
-layout: article
-title:  "2. add two numbers"
+layout: single
+title:  "2 - add two numbers"
 tags: 
     - leetcode
     - Medium
@@ -10,7 +10,7 @@ categories: leetcode
 ---
 
 
-{% highlight c++ %}
+```cpp
 
 /**
  * Definition for singly-linked list.
@@ -71,4 +71,4 @@ public:
     }
 };
 
-{% endhighlight %}
+```

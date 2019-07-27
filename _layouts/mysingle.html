@@ -13,5 +13,15 @@ layout: single
     <br/>
 </footer>
 
+
 {{ content }}
-        
+
+
+{% if page.refs %}
+    <h2 id="refs">Refs</h2>
+    <ul>
+        {% for r in page.refs %}
+            <li><a href="{{ r }}">{{ r }}</a></li>
+        {% endfor %}
+    </ul>
+{% endif %}

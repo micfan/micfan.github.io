@@ -1,4 +1,6 @@
 main:
+  - title: "Effective Modern C++"
+    url: https://www.kancloud.cn/kangdandan/book/169966
   - title: "Concurrency in Go"
     url: https://www.kancloud.cn/mutouzhang/go/596804
   - title: "RE4B"

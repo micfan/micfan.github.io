@@ -118,6 +118,16 @@ defaults:
       toc: true
       toc_label: "Contents"
       toc_icon: "bookmark"  # corresponding Font Awesome icon name (without fa prefix)      
+  # _posts/dragonbook
+  - scope:
+      path: "_posts/dragonbook"
+      type: posts
+    values:
+      layout: mysingle
+      categories: dragonbook
+      toc: true
+      toc_label: "Contents"
+      toc_icon: "bookmark"  # corresponding Font Awesome icon name (without fa prefix)
   # _pages
   - scope:
       path: "_pages"

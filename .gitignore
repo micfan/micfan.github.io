@@ -5,3 +5,4 @@ _site
 *.patch
 *.bak
 foo.*
+foo/

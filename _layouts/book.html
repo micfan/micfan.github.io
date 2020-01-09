@@ -18,8 +18,26 @@ categories: book
     <li>图书子类: {{ page.book.subcat }}</li>
 </ul>
 
-{{ content }}
-
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+
+{{ content }}
+
+{% if page.mermaid %}
+	<script type="text/javascript" 
+		src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.4/mermaid.min.js">
+	</script>
+	<script type="text/javascript">
+		var config = {
+	    startOnLoad:true,
+	    theme: 'forest',
+	    flowchart:{
+	            useMaxWidth:false,
+	            htmlLabels:true
+	        }
+		};
+		window.mermaid.initialize(config);
+		window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+	</script>    
+{% endif %}

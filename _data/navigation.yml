@@ -1,12 +1,6 @@
 main:
-  - title: "Effective Modern C++"
-    url: https://www.kancloud.cn/kangdandan/book/169966
-  - title: "Concurrency in Go"
-    url: https://www.kancloud.cn/mutouzhang/go/596804
-  - title: "RE4B"
-    url: https://beginners.re/RE4B-CN-partial/html/RE4B-CN-partial.html
-  - title: "RT Weekend"
-    url: https://github.com/RayTracing/raytracinginoneweekend    
+  - title: "Reading 2020"
+    url: /blog/reading/reading-list-2020
   - title: "Archives"
     url: /arch/
   - title: "Categories"

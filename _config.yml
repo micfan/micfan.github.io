@@ -138,7 +138,24 @@ defaults:
       toc: true
       toc_label: "Contents"
       toc_icon: "bookmark"  # corresponding Font Awesome icon name (without fa prefix)
-  # _pages
+  - scope:
+      path: "_posts/network"
+      type: posts
+    values:
+      layout: mysingle
+      categories: network
+      toc: true
+      toc_label: "Contents"
+      toc_icon: "bookmark"  # corresponding Font Awesome icon name (without fa prefix)
+  - scope:
+      path: "_posts/av"
+      type: posts
+    values:
+      layout: mysingle
+      categories: AV
+      toc: true
+      toc_label: "Contents"
+      toc_icon: "bookmark"  # corresponding Font Awesome icon name (without fa prefix)
   - scope:
       path: "_pages"
       type: pages

@@ -157,6 +157,15 @@ defaults:
       toc_label: "Contents"
       toc_icon: "bookmark"  # corresponding Font Awesome icon name (without fa prefix)
   - scope:
+      path: "_posts/math"
+      type: posts
+    values:
+      layout: mysingle
+      categories: math
+      toc: true
+      toc_label: "Contents"
+      toc_icon: "bookmark"  # corresponding Font Awesome icon name (without fa prefix)  
+  - scope:
       path: "_pages"
       type: pages
     values:
